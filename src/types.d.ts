@@ -12,8 +12,8 @@ type Props = {
   answers: string[];
   callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
   userAnswer: any;
-  quesNum: number;
-  totalQues: number;
+  questionNum: number;
+  totalQuestions: number;
 };
 
 type QuestionState = Question & { answers: string[] };
